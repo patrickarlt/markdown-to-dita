@@ -24,7 +24,7 @@ DitaRenderer.hr = function(){
   return "\n DITA formatted horizontal rule";
 };
 
-DitaRenderer.list = function(text, ordered){
+DitaRenderer.list = function(body, ordered){
   return "\n DITA formatted list";
 };
 
@@ -36,11 +36,11 @@ DitaRenderer.paragraph = function(text){
   return "\n DITA formatted list item";
 };
 
-DitaRenderer.table = function(text){
+DitaRenderer.table = function(body){
   return "\n DITA formatted table";
 };
 
-DitaRenderer.tablerow = function(text){
+DitaRenderer.tablerow = function(body){
   return "\n DITA formatted table row";
 };
 
